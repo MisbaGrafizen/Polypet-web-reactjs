@@ -6,7 +6,7 @@ export default function AboutCom() {
         <>
 
 
-            <div className="w-full  py-16">
+            <div className="w-full  pt-16">
                 <div className="max-w-6xl mx-auto px-6">
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
                         {/* Left Side - Image */}
@@ -21,7 +21,7 @@ export default function AboutCom() {
                                 {/* Floating Stats Cards */}
                              
 
-                                <div className="absolute -bottom-4 -left-4 border bg-[#009fe347] text-white justify-center items-center flex flex-col p-4  backdrop-blur-[10px] rounded-lg shadow-lg">
+                                <div className="absolute -bottom-4 -left-4 border bg-[#0c3ee147] text-white justify-center items-center flex flex-col p-4  backdrop-blur-[10px] rounded-lg shadow-lg">
                                     <div className="text-2xl font-bold">500+</div>
                                     <div className="text-sm">Happy Clients</div>
                                 </div>
@@ -32,7 +32,7 @@ export default function AboutCom() {
                         <div className="space-y-4">
                             {/* Section Label */}
                             <div className="inline-block">
-                                <span className="text-[#01bfcb] font-semibold text-sm uppercase border  border-[#01bfcb] [tracking-wider bg-[#009fe314] px-4 py-1 rounded-full">
+                                <span className="text-blue-900 font-semibold text-sm uppercase border  border-blue-900 [tracking-wider bg-blue-200 px-4 py-[3px] rounded-full">
                                     ABOUT US
                                 </span>
                             </div>

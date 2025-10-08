@@ -249,7 +249,7 @@ export default function PETBottleWashingSection() {
         {/* Header */}
         <div className="mb-12">
           <div className="mb-4 mx-auto flex justify-center ">
-              <span className="text-blue-900 font-semibold text-sm uppercase border  border-blue-900 [tracking-wider bg-blue-200 px-4 py-[3px] rounded-full">WE ARE KNOWN FOR</span>
+              {/* <span className="text-blue-900 font-semibold text-sm uppercase border  border-blue-900 [tracking-wider bg-blue-200 px-4 py-[3px] rounded-full">WE ARE KNOWN FOR</span> */}
           </div>
           <h2 className="text-4xl text-center mx-auto font-bold text-slate-800 mb-4">PET bottle Washing and Crushing Line</h2>
 

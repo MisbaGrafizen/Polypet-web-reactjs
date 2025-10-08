@@ -6,7 +6,7 @@ export default function AboutCom() {
         <>
 
 
-            <div className="w-full  pt-16">
+            <div className="w-full  ">
                 <div className="max-w-6xl mx-auto px-6">
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
                         {/* Left Side - Image */}
@@ -31,11 +31,11 @@ export default function AboutCom() {
                         {/* Right Side - Content */}
                         <div className="space-y-4">
                             {/* Section Label */}
-                            <div className="inline-block">
+                            {/* <div className="inline-block">
                                 <span className="text-blue-900 font-semibold text-sm uppercase border  border-blue-900 [tracking-wider bg-blue-200 px-4 py-[3px] rounded-full">
                                     ABOUT US
                                 </span>
-                            </div>
+                            </div> */}
 
                             {/* Main Heading */}
                             <h2 className="text-3xl lg:text-4xl font-bold text-blue-900 leading-tight">

@@ -406,7 +406,7 @@ const GlobalPresenceSection = () => {
             <div className="mx-auto justify-between flex  w-[80%] flex-col gap-12  md:flex-row md:items-center md:gap-16">
                 {/* Left Content */}
                 <div className=" w-[45%]">
-                    <p className="text-blue-900  w-fit font-semibold text-sm uppercase border  border-blue-900 [tracking-wider bg-blue-200 px-4 py-[3px] rounded-full">How to Find Us</p>
+                    {/* <p className="text-blue-900  w-fit font-semibold text-sm uppercase border  border-blue-900 [tracking-wider bg-blue-200 px-4 py-[3px] rounded-full">How to Find Us</p> */}
                     <h2 className="mt-4 text-4xl font-[600] text-slate-900 ]">
                         Delivering reliability across every continent.
                     </h2>

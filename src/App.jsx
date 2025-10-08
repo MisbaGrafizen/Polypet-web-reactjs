@@ -8,6 +8,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 
 import Cookies from 'js-cookie';
 import Home from "./pages/home/Home";
+import AboutMainPage from "./pages/aboutUsPage/AboutMainPage";
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
         <Routes>
 
           <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutMainPage />} />
+
      
 
 

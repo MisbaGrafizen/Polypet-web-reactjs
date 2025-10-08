@@ -155,9 +155,9 @@ export default function ModernSkillsSection() {
                 className="h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mb-4"
               /> */}
 
-                            <span className="text-blue-900 font-semibold  text-sm uppercase border  border-blue-900 [tracking-wider bg-blue-200 px-4 py-[3px] rounded-full">
+                            {/* <span className="text-blue-900 font-semibold  text-sm uppercase border  border-blue-900 [tracking-wider bg-blue-200 px-4 py-[3px] rounded-full">
                                   Skills
-                                </span>
+                                </span> */}
               <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl mt-[10px] font-bold text-white tracking-tight">
                 OUR SKILLS
               </motion.h2>

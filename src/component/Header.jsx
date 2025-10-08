@@ -51,9 +51,9 @@ export default function Header() {
                     <span className="flex h-[20px] w-[1px] bg-black"></span>
 
                     <Link
-                      to="https://www.rajkotdentist.com/about/"
-                      onClick={() => handleLinkClick("https://www.rajkotdentist.com/about/")}
-                      className={`cursor-pointer font-[400] font-Poppins ${selected === "https://www.rajkotdentist.com/about/"
+                      to="/about-us"
+                      onClick={() => handleLinkClick("/about-us")}
+                      className={`cursor-pointer font-[400] font-Poppins ${selected === "/about-us"
                         ? "text-[#ec691e] font-[500] hover:text-[#ec691e]"
                         : " text-[#515151]"
                         }`}
@@ -64,7 +64,7 @@ export default function Header() {
                     <span className="flex h-[20px] w-[1px] bg-black"></span>
 
                     <Link
-                      to="https://www.rajkotdentist.com/why-choose-us/"
+                      to="/pet-us"
                       onClick={() => handleLinkClick("https://www.rajkotdentist.com/why-choose-us/")}
                       className={`cursor-pointer font-[400] font-Poppins ${selected === "https://www.rajkotdentist.com/why-choose-us/"
                         ? "text-[#ec691e] font-[500] hover:text-[#ec691e]"
@@ -77,14 +77,14 @@ export default function Header() {
                     <span className="flex h-[20px] w-[1px] bg-black"></span>
 
                     <Link
-                      to="https://www.rajkotdentist.com/dental-tourism/"
-                      onClick={() => handleLinkClick("https://www.rajkotdentist.com/dental-tourism/")}
-                      className={`cursor-pointer font-[400] font-Poppins ${selected === "https://www.rajkotdentist.com/dental-tourism/"
+                      to="/"
+                      onClick={() => handleLinkClick("/")}
+                      className={`cursor-pointer font-[400] font-Poppins ${selected === "/"
                         ? "text-[#ec691e] font-[500] hover:text-[#ec691e]"
                         : " text-[#515151]"
                         }`}
                     >
-                      Visiting From Abroad?
+                      Machinery
                     </Link>
 
                     {/* <span className="flex h-[20px] w-[1px] bg-black"></span>
@@ -104,9 +104,9 @@ export default function Header() {
 
 
                     <Link
-                      to="https://www.rajkotdentist.com/dental-implant/"
-                      onClick={() => handleLinkClick("https://www.rajkotdentist.com/dental-implant/")}
-                      className={`cursor-pointer font-[400] font-Poppins ${selected === "https://www.rajkotdentist.com/dental-implant/"
+                      to="/"
+                      onClick={() => handleLinkClick("/")}
+                      className={`cursor-pointer font-[400] font-Poppins ${selected === "/"
                         ? "text-[#ec691e] font-[500] hover:text-[#ec691e]"
                         : "  text-[#515151]"
                         }`}
@@ -116,9 +116,9 @@ export default function Header() {
                     <span className="flex h-[20px] w-[1px] bg-black"></span>
 
                     <Link
-                      to="https://www.rajkotdentist.com/contact-us/"
-                      onClick={() => handleLinkClick("https://www.rajkotdentist.com/contact-us/")}
-                      className={`cursor-pointer font-[400] font-Poppins ${selected === "https://www.rajkotdentist.com/contact-us/"
+                      to="/"
+                      onClick={() => handleLinkClick("/")}
+                      className={`cursor-pointer font-[400] font-Poppins ${selected === "/"
                         ? "text-[#ec691e] font-[500] hover:text-[#ec691e]"
                         : "  text-[#515151]"
                         }`}

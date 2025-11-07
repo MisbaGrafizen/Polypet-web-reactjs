@@ -2,6 +2,7 @@
 import React from 'react';
 import image from "../../../public/imges/Herosection/first1Desktop.jpg"; // replace with your image path
 import { CheckCircle, Clock, Leaf } from "lucide-react";
+import CountUp from '../reactBits/CountUp';
 
 export default function AboutUsPageCom() {
   return (
@@ -12,40 +13,55 @@ export default function AboutUsPageCom() {
           {/* Text block */}
           <div className="space-y-4 md:w-[55%]">
             <h1 className="text-[45px] font-[600] text-gray-800 tracking-tight">
-              About <b className="font-[600] text-[#00a0e3]">Us</b>
+              About <b className="font-[600] text-blue-800">Us</b>
             </h1>
 
-            <h2 className="text-2xl font-semibold text-gray-700">
-              Driving <span className="text-[#00a0e3]">Sustainability & Quality</span> in Plastic Recycling
+            <h2 className="text-xl font-semibold text-gray-700">
+              Driving <span className="text-blue-800">Sustainability & Quality</span> in Plastic Recycling
             </h2>
 
-            <p className="text-gray-600 text-justify leading-relaxed">
+            <p className="text-gray-600 text-[14px] text-justify leading-[22px]">
               Founded in the year 2003, Dynamic Polypet Pvt. Ltd. has emerged as a dependable and reputed
               manufacturer of a broad range of PET Flakes, Mixed PET Flakes, and Pet Bottle Washing Plants.
               Based in Rajkot (Gujarat, India), we are committed to building an eco-friendly future through innovation,
               consistency, and uncompromised quality.
             </p>
 
-            <p className="text-gray-600 text-justify leading-relaxed">
+            <p className="text-gray-600  text-[14px] text-justify leading-[22px]">
               Our advanced infrastructure and modern manufacturing facilities enable us to produce high-quality products
               that meet global standards. Under the guidance of
             </p>
 
             {/* Quick stats */}
             <div className="flex gap-[30px] pt-2">
-              <div className="bg-gray-50 p-4 shadow-md w-[200px] rounded-lg border border-gray-100">
-                <div className="text-3xl font-bold text-[#00a0e3]">20+</div>
-                <div className="text-gray-600">Years of Excellence</div>
+              <div className="border  w-[180px]  bg-gradient-to-b from-blue-900 to-blue-700  text-white justify-center items-center flex flex-col p-2  backdrop-blur-[10px] rounded-lg shadow-lg">
+                <div className="text-[29px] leading-9  font-[600] text-[#ffffff]">                <CountUp
+  from={0}
+  to={20 }
+  separator=","
+  direction="up"
+  duration={1}
+  className="count-up-text font-[600] text-[29px]"
+/> +</div>
+
+                <div className=" text-[13px] text-gray-100">Years of Excellence</div>
               </div>
-              <div className="bg-gray-50 p-4 w-[200px] shadow-md rounded-lg border border-gray-100">
-                <div className="text-3xl font-bold text-[#00a0e3]">1000+</div>
-                <div className="text-gray-600">Satisfied Clients</div>
+              <div className="border w-[180px] bg-gradient-to-b from-blue-900 to-blue-700  text-white justify-center items-center flex flex-col p-2  backdrop-blur-[10px] rounded-lg shadow-lg">
+                <div className="text-[29px] leading-9 font-[600] text-[#ffffff]">    <CountUp
+  from={0}
+  to={1000 }
+  separator=","
+  direction="up"
+  duration={0.1}
+  className="count-up-text font-[600] text-[29px]"
+/>+</div>
+                <div className="text-[13px] text-gray-100">Satisfied Clients</div>
               </div>
             </div>
           </div>
 
           {/* Image block */}
-          <div className="relative h-[450px] md:w-[42%] w-full rounded-lg overflow-hidden shadow-xl">
+          <div className="relative h-[400px] md:w-[42%] w-full rounded-xl overflow-hidden shadow-xl">
             <img
               src={image}
               alt="Dynamic Polypet Manufacturing Unit"
@@ -63,7 +79,7 @@ export default function AboutUsPageCom() {
         <div className="mt-20 px-[20px]">
           <div className="text-center mb-8">
             <h2 className="text-[40px] font-[600] text-gray-800">
-              Our Core <b className="font-[600] text-[#00a0e3]">Values</b>
+              Our Core <b className="font-[600] text-blue-800">Values</b>
             </h2>
           </div>
 
@@ -87,12 +103,12 @@ export default function AboutUsPageCom() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-tr-[30px] shadow-md rounded-[2px] border-[1.2px] border-[#00c3ff] hover:shadow-lg transition-shadow"
+                className="bg-white p-6  shadow-md rounded-[2px] border-[1.2px] border-[#00c3ff] hover:shadow-lg transition-shadow"
               >
-                <div className=' flex gap-[10px] items-center'>
+                <div className=' flex gap-[10px] items-center mb-4'>
 
 
-                  <div className="w-12 h-12 bg-[#00c3ff] rounded-[8px] shadow-xl flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-[#00c3ff] rounded-[8px] shadow-xl flex items-center justify-center ">
                     {item.icon}
                   </div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">{item.title}</h3>

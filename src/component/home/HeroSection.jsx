@@ -141,7 +141,7 @@ export default function HeroSection() {
               {slidesData.map((slide, i) => (
                 <div
                   key={i}
-                  className="w-full shrink-0  overflow-hidden h-[320px] md11:h-[500px] "
+                  className="w-full shrink-0  overflow-hidden h-[320px] md11:h-[400px] "
                 >
                   <picture>
                     <source
@@ -155,7 +155,7 @@ export default function HeroSection() {
                     <img
                       src={slide.mobile || slide.image}
                       alt={`Slide ${i}`}
-                      className="w-full h-full object-cover md11:object-contain  2xl:object-cover"
+                      className="w-full h-full  object-cover  md11:object-cover  2xl:object-cover"
                       draggable={false}
                       loading={i === 1 ? "eager" : "lazy"}
                     />

@@ -15,7 +15,7 @@ export default function MissionVisson() {
             <div className="text-center mb-16">
               <h2 className="text-4xl font-[600] text-gray-900 mb-4">
                 The history of{" "}
-                <b className="text-[#00c3ff] font-[600]">
+                <b className="text-blue-700 font-[600]">
                   dynamic and progressive thinking
                 </b>
               </h2>
@@ -30,8 +30,8 @@ export default function MissionVisson() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
               <div className="order-2 md:order-1">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 rounded-full bg-[#00c3ff37] flex items-center justify-center mr-4">
-                    <span className="text-[#00c3ff] font-[600]">1</span>
+                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4">
+                    <span className="text-blue-700 font-[600]">1</span>
                   </div>
                   <h3 className="text-2xl font-[600] text-gray-900">
                     Our Mission
@@ -49,20 +49,20 @@ export default function MissionVisson() {
 
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <span className="text-[#00c3ff] mr-3 mt-1">✔</span>
+                    <span className="text-blue-700 mr-3 mt-1">✔</span>
                     <span className="text-gray-600">
                       Focus on sustainability and innovation
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#00c3ff] mr-3 mt-1">✔</span>
+                    <span className="text-blue-700 mr-3 mt-1">✔</span>
                     <span className="text-gray-600">
                       Delivering global-quality products with eco-friendly
                       processes
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#00c3ff] mr-3 mt-1">✔</span>
+                    <span className="text-blue-700 mr-3 mt-1">✔</span>
                     <span className="text-gray-600">
                       Creating long-term value for clients and partners
                     </span>
@@ -91,8 +91,8 @@ export default function MissionVisson() {
 
               <div>
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 rounded-full bg-[#00c3ff37] flex items-center justify-center mr-4">
-                    <span className="text-[#00c3ff] font-[600]">2</span>
+                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4">
+                    <span className="text-blue-700 font-[600]">2</span>
                   </div>
                   <h3 className="text-2xl font-[600] text-gray-900">
                     Our Philosophy
@@ -109,19 +109,19 @@ export default function MissionVisson() {
 
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <span className="text-[#00c3ff] mr-3 mt-1">✔</span>
+                    <span className="text-blue-700 mr-3 mt-1">✔</span>
                     <span className="text-gray-600">
                       Customer-centric and quality-driven approach
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#00c3ff] mr-3 mt-1">✔</span>
+                    <span className="text-blue-700 mr-3 mt-1">✔</span>
                     <span className="text-gray-600">
                       Ethical operations with strong professional values
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#00c3ff] mr-3 mt-1">✔</span>
+                    <span className="text-blue-700 mr-3 mt-1">✔</span>
                     <span className="text-gray-600">
                       Continuous improvement in every process
                     </span>
@@ -134,8 +134,8 @@ export default function MissionVisson() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 rounded-full bg-[#00c3ff37] flex items-center justify-center mr-4">
-                    <span className="text-[#00c3ff] font-[600]">3</span>
+                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4">
+                    <span className="text-blue-700 font-[600]">3</span>
                   </div>
                   <h3 className="text-2xl font-[600] text-gray-900">
                     Updated Person
@@ -152,19 +152,19 @@ export default function MissionVisson() {
 
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <span className="text-[#00c3ff] mr-3 mt-1">✔</span>
+                    <span className="text-blue-700 mr-3 mt-1">✔</span>
                     <span className="text-gray-600">
                       Continuous global exposure and learning
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#00c3ff] mr-3 mt-1">✔</span>
+                    <span className="text-blue-700 mr-3 mt-1">✔</span>
                     <span className="text-gray-600">
                       Adapting to new trends and technologies
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#00c3ff] mr-3 mt-1">✔</span>
+                    <span className="text-blue-700 mr-3 mt-1">✔</span>
                     <span className="text-gray-600">
                       Upgrading quality standards to match global parameters
                     </span>

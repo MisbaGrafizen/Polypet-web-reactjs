@@ -1,5 +1,5 @@
 import React from 'react'
-import factory from "../../../public/imges/aboutus/Factory-1.jpg"
+import image from "../../../public/imges/aboutus/Aboutimage.jpg"; 
 
 export default function AboutCom() {
     return (
@@ -7,13 +7,13 @@ export default function AboutCom() {
 
 
             <div className="w-full  ">
-                <div className="max-w-6xl mx-auto px-6">
+                <div className=" w-[84%] mx-auto px-6">
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
                         {/* Left Side - Image */}
                         <div className="relative">
                             <div className="bg-white rounded-2xl shadow-lg">
                                 <img
-                                    src={factory}
+                                    src={image}
                                     alt="Modern Office Building"
                                     className="w-full h-[400px]  object-cover rounded-xl"
                                 />

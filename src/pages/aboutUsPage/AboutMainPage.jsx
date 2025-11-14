@@ -7,6 +7,8 @@ import Faq from '../../component/home/Faqs'
 import Testimonials from '../../component/home/Testimonials'
 import Blog from '../../component/home/Blog'
 import Footer from '../../component/Footer'
+import Journey from '../../component/aboutUsPage/Journey'
+import FounderCom from '../../component/aboutUsPage/FounderCom'
 
 export default function AboutMainPage() {
     return (
@@ -18,29 +20,9 @@ export default function AboutMainPage() {
 
 
 
-
-<div className=' w-[80%] bg-[#02118a] px-[30px] mx-auto' style={{ height: '600px', position: 'relative' , }}>
-  <CardSwap
-    cardDistance={20}
-    verticalDistance={30}
-    delay={5000}
-    pauseOnHover={false}
-  >
-    <Card>
-      <h3>Card 1</h3>
-      <p>Your content here</p>
-    </Card>
-    <Card>
-      <h3>Card 2</h3>
-      <p>Your content here</p>
-    </Card>
-    <Card>
-      <h3>Card 3</h3>
-      <p>Your content here</p>
-    </Card>
-  </CardSwap>
-</div>
-<MissionVisson />
+<Journey />
+<FounderCom />
+{/* <MissionVisson /> */}
 
 
 

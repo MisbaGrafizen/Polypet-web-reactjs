@@ -1,6 +1,6 @@
 // src/components/AboutUs.jsx
 import React from 'react';
-import image from "../../../public/imges/Herosection/first1Desktop.jpg"; // replace with your image path
+import image from "../../../public/imges/aboutus/Aboutimage.jpg"; // replace with your image path
 import { CheckCircle, Clock, Leaf } from "lucide-react";
 import CountUp from '../reactBits/CountUp';
 
@@ -11,7 +11,7 @@ export default function AboutUsPageCom() {
         {/* Top section */}
         <div className="flex flex-col md:flex-row justify-between gap-8 items-center">
           {/* Text block */}
-          <div className="space-y-4 md:w-[55%]">
+          <div className="space-y-4 md:w-[45%]">
             <h1 className="text-[45px] font-[600] text-gray-800 tracking-tight">
               About <b className="font-[600] text-blue-800">Us</b>
             </h1>
@@ -61,13 +61,13 @@ export default function AboutUsPageCom() {
           </div>
 
           {/* Image block */}
-          <div className="relative h-[400px] md:w-[42%] w-full rounded-xl overflow-hidden shadow-xl">
+          <div className="relative h-[400px] md:w-[52%] w-full rounded-xl overflow-hidden shadow-xl">
             <img
               src={image}
               alt="Dynamic Polypet Manufacturing Unit"
-              className="object-cover w-full h-full"
+              className= "  object-cover w-full h-full"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" /> */}
             <div className="absolute bottom-0 left-5 p-6">
               <div className="inline-block bg-white px-4 py-[4px] rounded-md shadow-md">
                 <h3 className="text-gray-800 font-[600]">Est. 2003</h3>
@@ -103,12 +103,12 @@ export default function AboutUsPageCom() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="bg-white p-6  shadow-md rounded-[2px] border-[1.2px] border-[#00c3ff] hover:shadow-lg transition-shadow"
+                className="bg-white p-6  shadow-md rounded-[12px] border-[1.2px] border-blue-700 hover:shadow-lg transition-shadow"
               >
                 <div className=' flex gap-[10px] items-center mb-4'>
 
 
-                  <div className="w-12 h-12 bg-[#00c3ff] rounded-[8px] shadow-xl flex items-center justify-center ">
+                  <div className="w-12 h-12 bg-blue-700 rounded-[8px] shadow-xl flex items-center justify-center ">
                     {item.icon}
                   </div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">{item.title}</h3>

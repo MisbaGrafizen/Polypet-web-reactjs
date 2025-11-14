@@ -388,3 +388,15 @@ cursor: pointer;
 .shadow1-blue{
 box-shadow: 1px 1px 3px #cfe9f6 ,-1px -1px 3px #eef7fb;
 }
+
+
+.dynamic-bg {
+  background: linear-gradient(to bottom, #1e3a8a, #1d4ed8);
+
+}
+.dynamic-text {
+  background: linear-gradient(to bottom, #1e3a8a, #1d4ed8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}

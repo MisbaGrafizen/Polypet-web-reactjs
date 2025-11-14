@@ -9,6 +9,9 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import Cookies from 'js-cookie';
 import Home from "./pages/home/Home";
 import AboutMainPage from "./pages/aboutUsPage/AboutMainPage";
+import ContactUs from "./pages/conatctusPage/ContactUs";
+import MainPagePet from "./pages/MainFlakesPage/MainPagePet";
+import Shorting from "./pages/allMachinesPage/Shorting";
 
 
 function App() {
@@ -24,6 +27,12 @@ function App() {
 
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutMainPage />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/flakes" element={<MainPagePet />} />
+          <Route path="/shorting" element={<Shorting/>} />
+
+
+
 
      
 
